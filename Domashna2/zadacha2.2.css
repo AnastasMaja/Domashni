@@ -1,0 +1,80 @@
+body {
+    background-color:rgb(252, 243, 235);
+    background-image: url('pizza1.png'), url('pizza2.png'), url('pizza3.png');
+    background-size: 15%, 15%, 20%;
+    background-position: 200px 470px, 130px 30px, 1150px 200px;
+    background-repeat: no-repeat;
+    
+}
+
+table {
+    width: 60%; 
+    border-collapse: collapse; 
+    border: 2px solid #333; 
+    margin: 20px auto; 
+    border-radius: 10px;
+}
+
+thead {
+    background-color: #fff6af; 
+    color: #8c0000; 
+    padding: 10px; 
+    text-align: center; 
+    font-size: xx-large;
+}
+
+td {
+    padding: 8px; 
+    text-align: center; 
+}
+
+tfoot {
+    background-color: #99eb80; 
+    padding: 10px; 
+    text-align: center; 
+}
+
+h1 {
+    text-align:center;
+    color:red;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box; 
+    resize: none; 
+    font-family: Arial;
+    font-size: medium;
+}
+
+input {
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    background-color: #04a317;
+    color: #000000;
+}
+
+tbody tr {
+    background-color:rgb(255, 212, 144);
+    font-size: x-large;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size:medium;
+    font-family: Arial;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5); 
+}
+
+input[type="radio"] {
+    transform: scale(1.5); 
+}
