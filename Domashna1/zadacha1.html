@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>Homework 2</title>
+        <h1>YOUR FAVORITE PIZZA!</h1>
+     </head>
+
+    <body>
+        <table border = "1">
+            <thead>
+                    <th colspan = "2"> 
+                        <strong>Pizza Shop 2.0</strong>
+                    </th>
+            </thead>
+
+             <tbody>
+                <tr>
+                    <td>Name</td>
+                    <td>
+                        <label>
+                            <input name = "name" type = "text" size = "40" maxlength = "50">
+                        </label>
+                    </td>
+                <tr>
+                    <td>Pizza Topping</td>
+                    <td>
+                            <label>Supreme
+                                <input name = "topping" type = "radio"
+                            </label><br>
+
+                             <label>Vegetarian
+                                <input name = "topping" type = "radio"
+                            </label><br>
+
+                             <label>Hawaiian
+                                <input name = "topping" type = "radio"
+                            </label><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Pizza Sauce</td>
+                    <td>
+                        <select>
+                                <option>Tomato</option>
+                                <option>Spicy Red</option>
+                                <option>BBQ</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Extras</td>
+                    <td>
+                        <label>Extra Cheese
+                            <input name = "extra" type = "checkbox" </label>
+                        <label>Gluten Free Base
+                            <input name = "extra" type = "checkbox" </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan = "2"> Delivery Instructions:<br>
+                        <textarea name = "instructions" 
+                        rows = 8 cols = 55> Please leave the box on the porch behind the planter.</textarea>
+                    </td>
+                </tr>
+                <tfoot>
+                    <td colspan = "2">
+                        <input type = "submit" value = "Send my order"> 
+                    </td>
+                </tfoot>
+             </tbody>
+        </table>
+    </body>
+</html>
